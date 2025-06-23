@@ -1,0 +1,21 @@
+{
+	"name": "Astramentum Arts 🌙 Tattoo Atelier in Leipzig",
+	"short_name": "Astramentum Arts",
+	"start_url": "https://astramentumarts.com",
+	"description": "Astramentum Arts ist das Tattoo-Atelier von Lia Tent in Leipzig, Deutschland, spezialisiert auf Blackwork / Linework, illustrative, düster-poetische Themen, natur- und anatomieinspirierte, surreale und symbolische Motive.",
+	"icons": [
+		{
+			"src": "img/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "img/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#ffffff",
+	"background_color": "#ECB204",
+	"display": "standalone"
+}

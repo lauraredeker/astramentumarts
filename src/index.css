@@ -1,0 +1,78 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}
+
+@layer components {
+	.tw-container {
+		@apply tw-max-w-screen-3xl;
+	}
+}
+
+@layer base {
+	/* All delay classes will take half the time to start */
+	:root {
+		--animate-delay: 0.2s;
+	}
+
+	@font-face {
+		font-family: 'Alegro';
+		src: url('../fonts/AlegroRegular.woff2') format('woff2'),
+			url('../fonts/AlegroRegular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	/* quotes */
+	@font-face {
+		font-family: 'Billker';
+		src: url('fonts/BillkerRegular.woff2') format('woff2'),
+			url('fonts/BillkerRegular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	
+	/* instrument-sans-regular - latin */
+	@font-face {
+		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+		font-family: 'Instrument Sans';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../fonts/instrument-sans-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	}
+	/* instrument-sans-600 - latin */
+	@font-face {
+		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+		font-family: 'Instrument Sans';
+		font-style: normal;
+		font-weight: 600;
+		src: url('../fonts/instrument-sans-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	}
+	/* instrument-sans-700 - latin */
+	@font-face {
+		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+		font-family: 'Instrument Sans';
+		font-style: normal;
+		font-weight: 700;
+		src: url('../fonts/instrument-sans-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	}
+}
+
+@layer utilities {
+	.custom-icon-color {
+		@apply tw-text-purple-300 dark:tw-from-purple-300;
+	}
+}
