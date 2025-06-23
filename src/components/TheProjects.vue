@@ -54,15 +54,15 @@
             <div class="tw-flex tw-flex-col tw-w-full tw-gap-6 tw-px-4 md:tw-px-24 3xl:tw-px-44">
               <picture>
                 <source
-                  srcset="/img/projects/flipcards_mockup_01.webp"
+                  srcset="/img/pictures/lia1.webp"
                   type="image/webp"
                 >
                 <source
-                  srcset="/img/projects/flipcards_mockup_01.jpg"
+                  srcset="/img/pictures/lia1.png"
                   type="image/jpeg"
                 >
                 <img
-                  src="/img/projects/flipcards_mockup_01.jpg"
+                  src="/img/pictures/lia1.png"
                   :alt="$t('projects.flipcards-headline')"
                   loading="lazy"
                   class="tw-overflow-hidden tw-bg-black tw-border-2 tw-border-black tw-rounded-xl dark:tw-border-black md:tw-rounded-4xl"
