@@ -25,9 +25,7 @@ module.exports = {
 				black: '#151313',
 				gray: colors.gray,
 				white: colors.white,
-				beige: '#fffefa',
-				indigo: colors.indigo,
-				purple: {
+				indigo: {
 					DEFAULT: '#425804',
 					50: '#BDF51F',
 					100: '#B7F40B',
@@ -41,7 +39,7 @@ module.exports = {
 					900: '#000000',
 					950: '#000000'
 				},
-				amber: {
+				gold: {
 					DEFAULT: '#ECB204',
 					50: '#FEE9AA',
 					100: '#FDE396',
@@ -132,8 +130,9 @@ module.exports = {
 			],
 		},
 		fontFamily: {
-			sans: ['Poppins', ...defaultTheme.fontFamily.sans],
-			display: ['Bungee Shade', ...defaultTheme.fontFamily.sans],
+			serif: ['Alegro', ...defaultTheme.fontFamily.serif],
+			sans: ['Instrument Sans', ...defaultTheme.fontFamily.sans],
+			display: ['Billker', ...defaultTheme.fontFamily.serif],
 		},
 	},
 }

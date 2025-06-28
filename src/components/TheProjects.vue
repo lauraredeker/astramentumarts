@@ -80,33 +80,6 @@
                       </span>
                     </p>
                   </div>
-                  <ul class="tw-mt-5">
-                    <li
-                      class="custom-tag"
-                    >
-                      2024
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      Figma
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      High-Fidelity Prototype
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      UI/UX-Design
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      App Design
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -117,21 +90,22 @@
           >
             <div class="tw-flex tw-flex-col tw-w-full tw-gap-6 tw-px-4 md:tw-px-24 3xl:tw-px-44">
               <div class="tw-overflow-hidden tw-bg-black tw-border-2 tw-border-black tw-rounded-xl dark:tw-border-black md:tw-rounded-4xl">
-                <video
-                  autoplay
-                  muted
-                  webkit-playsinline
-                  playsinline
-                  poster="/img/projects/schauer-poster.webp"
-                  preload="none"
-                  loop
-                >
+                <picture>
                   <source
-                    src="/img/projects/schauer.mp4"
-                    type="video/mp4"
+                    srcset="/img/pictures/lia2.webp"
+                    type="image/webp"
                   >
-                  Your browser does not support the video tag.
-                </video>
+                  <source
+                    srcset="/img/pictures/lia2.png"
+                    type="image/jpeg"
+                  >
+                  <img
+                    src="/img/pictures/lia2.png"
+                    :alt="$t('projects.flipcards-headline')"
+                    loading="lazy"
+                    class="tw-overflow-hidden tw-bg-black tw-border-2 tw-border-black tw-rounded-xl dark:tw-border-black md:tw-rounded-4xl"
+                  >
+                </picture>
               </div>
 
               <div
@@ -146,33 +120,6 @@
                       </span>
                     </p>
                   </div>
-                  <ul class="tw-mt-5">
-                    <li
-                      class="custom-tag"
-                    >
-                      2024
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      Svelte
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      SvelteKit
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      GSAP
-                    </li>
-                    <li
-                      class="custom-tag"
-                    >
-                      TailwindCSS
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>

@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 // Components
   import TheLocaleChanger from '../features/TheLocaleChanger.vue'
-  import TheDarkBtn from '../features/TheDarkBtn.vue'
   import TheNav from './TheNav.vue'
 
   // Utilities
@@ -88,10 +87,6 @@
       <hr class="tw-mx-6 tw-mt-2 tw-border-t-2 tw-border-black dark:tw-border-indigo-700">
 
       <div class="tw-flex tw-flex-row tw-justify-between tw-max-w-lg tw-px-6 tw-mx-auto tw-mt-6">
-        <TheDarkBtn
-          class="tw-mr-2 md:tw-mr-5"
-          @click="toggleNav()"
-        />
         <TheLocaleChanger
           class="tw-ml-2 md:tw-ml-5"
           @click="toggleNav()"

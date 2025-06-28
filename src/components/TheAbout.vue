@@ -21,7 +21,7 @@
 </script>
 
 <template>
-  <section class="tw-relative md:tw-z-10 tw-mx-auto">
+  <section class="tw-relative tw-mx-auto md:tw-z-10">
     <TheQuote />
 
     <div
@@ -35,11 +35,11 @@
       <div
         class="tw-mx-auto tw-mt-10 tw-mb-20 md:tw-mb-10 md:tw-mt-0 md:tw-max-w-screen-md xl:tw-mx-0 xl:tw-my-20 xl:tw-w-3/5 xl:tw-max-w-screen-xl 2xl:tw-w-1/2"
       >
-        <!-- <h3
-          class="tw-inline-block tw-text-xl tw-font-semibold tw-cursor-pointer tw-text-indigo-950 dark:tw-text-indigo-200 md:tw-text-3xl"
+        <h3
+          class="tw-inline-block tw-font-serif tw-text-4xl tw-text-gold-500 md:tw-text-7xl"
         >
-          {{ $t('about.headline') }}
-        </h3>-->
+          hi, ich bin lia.
+        </h3>
         <div
           class="tw-text-justify"
         >

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 // Components
-  import TheDarkBtn from '../features/TheDarkBtn.vue'
   import TheLocaleChanger from '../features/TheLocaleChanger.vue'
   import TheMobileNav from './TheMobileNav.vue'
   import TheNav from './TheNav.vue'
@@ -80,7 +79,6 @@
           v-show="isScrolling"
           class="tw-flex tw-flex-col tw-items-end"
         >
-          <TheDarkBtn />
           <TheLocaleChanger class="tw-mt-3" />
         </div>
       </div>

@@ -20,11 +20,11 @@
         :class="{ 'animate__animated animate__fadeInUp': isSectionVisible }"
         class="tw-container tw-pb-10 md:tw-pt-20 lg:tw-w-2/3 3xl:tw-w-1/2"
       >
-        <h3
-          class="tw-mb-5 tw-text-2xl tw-font-semibold tw-text-indigo-950 dark:tw-text-indigo-200 md:tw-mb-10 md:tw-text-5xl"
+        <h1
+          class="tw-select-none tw-text-gold-default tw-font-serif tw-text-center tw-text-[4vmin] md:tw-max-w-screen-md lg:tw-text-8xl xl:tw-max-w-screen-lg 2xl:-tw-mt-20 2xl:tw-text-9xl"
         >
-          {{ $t('contact.headline') }} 👀
-        </h3>
+          Termine
+        </h1>
 
 
         <p class="tw-mt-8 tw-mb-2 tw-text-justify tw-hyphens-auto md:tw-mt-10 md:tw-text-center">
@@ -32,34 +32,7 @@
         </p>
 
         <CopyEmail class="tw-inline-block tw-mt-5 tw-text-center" />
-
-        <div class="tw-flex tw-flex-row tw-flex-wrap tw-justify-center tw-mt-10 tw-font-semibold md:tw-mt-14">
-          <a
-            target="_blank"
-            class="tw-flex tw-flex-row tw-items-center tw-px-5 tw-py-2 tw-text-purple-500 tw-underline tw-transition tw-rounded-lg tw-underline-offset-4 hover:tw-bg-gray-200 hover:tw-text-black focus:tw-outline-none focus-visible:tw-ring-4 focus-visible:tw-ring-indigo-500 dark:tw-text-purple-200 dark:hover:tw-bg-black dark:hover:tw-text-white"
-            href="https://www.malt.de/profile/lauraredeker"
-          >
-            <span>malt</span>
-            <span class="tw-ml-1 tw-i-ph-arrow-right-bold" />
-          </a>
-          <a
-            target="_blank"
-            class="tw-flex tw-flex-row tw-items-center tw-px-5 tw-py-2 tw-text-purple-500 tw-underline tw-transition tw-rounded-lg tw-underline-offset-4 hover:tw-bg-gray-200 hover:tw-text-black focus:tw-outline-none focus-visible:tw-ring-4 focus-visible:tw-ring-indigo-500 dark:tw-text-purple-200 dark:hover:tw-bg-black dark:hover:tw-text-white"
-            href="https://www.junico.de/freelancer/laura-131"
-          >
-            <span>junico</span>
-            <span class="tw-ml-1 tw-i-ph-arrow-right-bold" />
-          </a>
-          <a
-            target="_blank"
-            class="tw-flex tw-flex-row tw-items-center tw-px-5 tw-py-2 tw-text-purple-500 tw-underline tw-transition tw-rounded-lg tw-underline-offset-4 hover:tw-bg-gray-200 hover:tw-text-black focus:tw-outline-none focus-visible:tw-ring-4 focus-visible:tw-ring-indigo-500 dark:tw-text-purple-200 dark:hover:tw-bg-black dark:hover:tw-text-white"
-            href="//www.linkedin.com/in/laura-a-redeker/"
-          >
-            <span>linkedin</span>
-            <span class="tw-ml-1 tw-i-ph-arrow-right-bold" />
-          </a>
-        </div>
-      </div>
+</div>
     </section>
 
     <the-footer />
